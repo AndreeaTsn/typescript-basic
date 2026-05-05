@@ -15,7 +15,8 @@ const restDiv = document.getElementById("rest");
 
 // TODO: const a: number = ...;
 // TODO: const b: number = ...;
-
+const a: number = 10;
+const b: number = 3;
 
 // =============================================================
 // PAS 2: Calculeaza fiecare operatie si afiseaz-o in cutia ei.
@@ -30,8 +31,27 @@ const restDiv = document.getElementById("rest");
 //        sumaDiv.textContent = "a + b = " + String(a + b);
 // =============================================================
 
+const suma :number = a+b;
+
+
+sumaDiv.textContent = "a + b =" + suma;
+
 // TODO: sumaDiv.textContent = ...;
-// TODO: diferentaDiv.textContent = ...;
-// TODO: produsDiv.textContent = ...;
-// TODO: catDiv.textContent = ...;
-// TODO: restDiv.textContent = ...;
+// sumaDiv.textContent = a+b;
+
+// // TODO: diferentaDiv.textContent = ...;
+const diferenta: number = a-b;
+diferentaDiv.textContent = "a-b =" + diferenta;
+// diferentaDiv.textContent= a - b =
+// // TODO: produsDiv.textContent = ...;
+const inmultire : number = a*b;
+produsDiv.textContent = "a*b =" + inmultire;
+// produsDiv.textContent = a * b ;
+// // TODO: catDiv.textContent = ...;
+const impartire: number = a/b;
+catDiv.textContent ="a/b =" + impartire;
+// catDiv.textContent = a/b;
+// // TODO: restDiv.textContent = ...;
+const restlaimpartire: number = a%b;
+restDiv.textContent = "a%b =" + restlaimpartire;
+// restDiv.textContent = a%b ;

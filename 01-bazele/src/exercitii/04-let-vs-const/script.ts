@@ -15,15 +15,16 @@ const dupaDiv = document.getElementById("dupaSchimbare");
 // =============================================================
 
 // TODO: let scor: number = ...;
-
+let scor: number = 0;
 
 // =============================================================
 // PAS 2: Afiseaza valoarea initiala in cutia "initialDiv".
 //        initialDiv.textContent = "Scor initial: " + String(scor);
 // =============================================================
+//String(12)=>"12"
 
 // TODO: initialDiv.textContent = ...;
-
+initialDiv.textContent = "scor initial: " +scor;
 
 // =============================================================
 // PAS 3: Schimba valoarea lui "scor" in 100.
@@ -33,14 +34,14 @@ const dupaDiv = document.getElementById("dupaSchimbare");
 // =============================================================
 
 // TODO: scor = ...;
-
+scor =100;
 
 // =============================================================
 // PAS 4: Afiseaza noua valoare in cutia "dupaDiv".
 // =============================================================
 
 // TODO: dupaDiv.textContent = ...;
-
+dupaDiv.textContent = "scor dupa: " + scor;
 
 // =============================================================
 // BONUS (optional):
@@ -50,3 +51,6 @@ const dupaDiv = document.getElementById("dupaSchimbare");
 
 // const PI: number = 3.14;
 // PI = 4; // <- Eroare: "Cannot assign to 'PI' because it is a constant."
+const PI: number = 3.14;
+
+dupaDiv.textContent = "scor dupa" + PI;

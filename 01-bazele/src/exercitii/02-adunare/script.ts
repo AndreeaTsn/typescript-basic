@@ -13,7 +13,8 @@ const rezultat = document.getElementById("rezultat");
 
 // TODO: const a: number = ...;
 // TODO: const b: number = ...;
-
+const variabila1: number = 5;
+const variabila2: number = 7;
 
 // =============================================================
 // PAS 2: Calculeaza suma si pune-o intr-o variabila noua "suma".
@@ -21,7 +22,7 @@ const rezultat = document.getElementById("rezultat");
 // =============================================================
 
 // TODO: const suma = ...;
-
+const suma = variabila1 + variabila2; 
 
 // =============================================================
 // PAS 3: Afiseaza in cutia verde textul: Suma este: <suma>
@@ -32,3 +33,4 @@ const rezultat = document.getElementById("rezultat");
 // =============================================================
 
 // TODO: rezultat.textContent = "Suma este: " + String(...);
+rezultat.textContent = "Suma este: " + suma;
