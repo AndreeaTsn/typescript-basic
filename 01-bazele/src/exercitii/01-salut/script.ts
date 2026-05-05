@@ -7,7 +7,7 @@
 
 // Acest rand gaseste cutia verde din pagina (div-ul cu id="rezultat").
 // Nu trebuie sa intelegi complet cum functioneaza inca.
-const rezultat = document.getElementById("rezultat");
+const rezultat = document.querySelector("#rezultat");
 
 // =============================================================
 // PAS 1: Declara o variabila numita "nume" de tip string si pune
@@ -19,6 +19,8 @@ const rezultat = document.getElementById("rezultat");
 
 // TODO: const nume: string = "...";
 
+const nume: string="Andreea";
+
 
 // =============================================================
 // PAS 2: Pune in cutia verde textul: Salut, <numele tau>!
@@ -28,3 +30,5 @@ const rezultat = document.getElementById("rezultat");
 // =============================================================
 
 // TODO: rezultat.textContent = ...;
+
+rezultat.textContent ="Salut "+nume+"!";
