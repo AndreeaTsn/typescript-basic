@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <title>20 - Pret cu reducere</title>
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <main>
+      <a href="../../index.html" class="inapoi">&larr; Inapoi la meniu</a>
+      <h1>20 - Pret cu reducere conditionata</h1>
+
+      <div class="descriere">
+        <strong>Ce inveti:</strong> exercitiu de finalizare. Combini totul:
+        <code>const</code>, <code>boolean</code>, <code>if/else if/else</code>,
+        operatorul <code>&amp;&amp;</code>, calcul aritmetic si template literals.
+      </div>
+
+      <p>Reguli reducere:</p>
+      <ul>
+        <li>are card de fidelitate <strong>si</strong> pretul &gt; 200 lei =&gt; reducere 20%</li>
+        <li>are card de fidelitate (orice pret) =&gt; reducere 10%</li>
+        <li>nu are card =&gt; nicio reducere</li>
+      </ul>
+
+      <div id="rezultat" class="rezultat"></div>
+    </main>
+    <script type="module" src="./script.ts"></script>
+  </body>
+</html>
