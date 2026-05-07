@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <title>34 - Indice de masa corporala (BMI)</title>
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <main>
+      <a href="../../index.html" class="inapoi">&larr; Inapoi la meniu</a>
+      <h1>34 - Indicele de masa corporala (BMI)</h1>
+
+      <div class="descriere">
+        <strong>Cerinta:</strong> calculeaza BMI si stabileste categoria.
+        Formula: <code>BMI = greutate / (inaltime * inaltime)</code>, unde
+        greutatea este in kg si inaltimea in metri.
+      </div>
+
+      <ul>
+        <li>BMI &lt; 18.5 -&gt; "subponderal"</li>
+        <li>18.5 - 24.9 -&gt; "normal"</li>
+        <li>25 - 29.9 -&gt; "supraponderal"</li>
+        <li>30+ -&gt; "obez"</li>
+      </ul>
+
+      <p>In <code>script.ts</code>, declara <code>greutate</code> (kg) si
+        <code>inaltime</code> (m). Afiseaza in cutia verde un text de forma
+        <em>"BMI = 22.86 (normal)"</em>. BMI rotunjit la doua zecimale.</p>
+
+      <div id="rezultat" class="rezultat"></div>
+    </main>
+    <script type="module" src="./script.ts"></script>
+  </body>
+</html>
