@@ -10,7 +10,7 @@ const rezultat = document.getElementById("rezultat");
 
 // TODO: const anCurent: number = 2026;
 // TODO: const varsta: number = ...;
-
+const anCurent : number 
 
 // =============================================================
 // PAS 2: Calculeaza anul nasterii (anCurent - varsta).
