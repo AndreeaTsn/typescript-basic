@@ -16,7 +16,8 @@ const rezultat = document.getElementById("rezultat");
 
 // TODO: const utilizatorCorect: string = "admin";
 // TODO: const parolaCorecta: string = "admin123";
-
+const utilizator_corect : string = "admin";
+const parola_corecta: string = "admin123";
 
 // =============================================================
 // PAS 2: Datele introduse de utilizator (le simulam in cod).
@@ -27,13 +28,15 @@ const rezultat = document.getElementById("rezultat");
 // TODO: const utilizatorIntrodus: string = "admin";
 // TODO: const parolaIntrodusa: string = "admin123";
 
-
+const utilizatorIntrodus : string = "admin";
+const parolaIntrodusa : string = "admin1233"
 // =============================================================
 // PAS 3: Variabila pentru mesajul final.
 // =============================================================
 
 // TODO: let mesaj: string = "";
 
+let mesaj : string = " variabila mesaj final"
 
 // =============================================================
 // PAS 4: Foloseste if / else.
@@ -49,7 +52,14 @@ const rezultat = document.getElementById("rezultat");
 // TODO:     ...
 // TODO: } else {
 // TODO:     ...
-// TODO: }
+// TODO: }^
+if ( utilizatorIntrodus === utilizator_corect && parolaIntrodusa===parola_corecta){
+    mesaj = "Bine ai venit," + utilizatorIntrodus + "!";
+} else  if(utilizatorIntrodus !== utilizator_corect ){ 
+    mesaj= "utilizatorul este gresit";
+}else {
+    mesaj="a-ti introdus parola gresita";
+}
 
 
 // =============================================================
@@ -57,3 +67,4 @@ const rezultat = document.getElementById("rezultat");
 // =============================================================
 
 // TODO: rezultat.textContent = mesaj;
+rezultat.textContent=mesaj;

@@ -62,7 +62,7 @@ poateConduceDiv.textContent = "poateConduce? " + String(poateConduce);
 //        cele doua conditii este indeplinita.
 // =============================================================
 const celPutinUna : boolean = esteAdult || areCarnet;
-celPutinUnaDiv.textContent = "celputinuna?" + String(celPutinUna)
+celPutinUnaDiv.textContent = "celputin una?" + String(celPutinUna)
 // TODO: const celPutinUna: boolean = esteAdult || areCarnet;
 // TODO: celPutinUnaDiv.textContent = "Cel putin una? " + String(celPutinUna);
 

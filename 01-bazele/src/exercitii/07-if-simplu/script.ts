@@ -20,6 +20,9 @@ const rezultat = document.getElementById("rezultat");
 // =============================================================
 
 // TODO: const numar: number = ...;
+let   numar : number = -5;
+
+
 
 
 // =============================================================
@@ -29,7 +32,7 @@ const rezultat = document.getElementById("rezultat");
 // =============================================================
 
 // TODO: let mesaj: string = "";
-
+let mesaj : string = " if "
 
 // =============================================================
 // PAS 3: Scrie if / else if / else cu urmatoarea logica:
@@ -47,8 +50,26 @@ const rezultat = document.getElementById("rezultat");
 // TODO: }
 
 
+numar=2;
+
+if ( numar > 0 ) {
+
+    mesaj="numarul este pozitiv";
+
+ }else  if(numar==0){
+
+     mesaj="numarul este null";
+ }
+ else if (numar==2) { 
+    mesaj = "numarul este 2";}
+ 
+ else{
+    mesaj="nuamrule ste negativ";
+ }
 // =============================================================
 // PAS 4: Afiseaza mesajul in cutia verde.
 // =============================================================
 
 // TODO: rezultat.textContent = mesaj;
+
+rezultat.textContent=mesaj;

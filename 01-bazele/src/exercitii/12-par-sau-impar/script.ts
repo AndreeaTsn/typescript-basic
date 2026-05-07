@@ -14,14 +14,14 @@ const rezultat = document.getElementById("rezultat");
 
 // TODO: const numar: number = ...;
 
-
+const numar : number = 20;
 // =============================================================
 // PAS 2: Variabila "mesaj" pentru rezultat.
 // =============================================================
 
 // TODO: let mesaj: string = "";
 
-
+let mesaj : string = "mesaj";
 // =============================================================
 // PAS 3: Foloseste if/else cu numar % 2 === 0.
 //        - daca da rest 0  -> mesaj = numar + " este par"
@@ -33,10 +33,17 @@ const rezultat = document.getElementById("rezultat");
 // TODO: } else {
 // TODO:     mesaj = ...;
 // TODO: }
+if (numar % 2 === 0) {
+     mesaj = numar +" "+ "este par";
+ } else  { 
+    mesaj = numar +" " + "este impar";
 
+}
 
 // =============================================================
 // PAS 4: Afiseaza mesajul.
 // =============================================================
 
 // TODO: rezultat.textContent = mesaj;
+
+rezultat.textContent = mesaj;

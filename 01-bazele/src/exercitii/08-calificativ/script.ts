@@ -15,7 +15,7 @@ const rezultat = document.getElementById("rezultat");
 // =============================================================
 
 // TODO: const nota: number = ...;
-
+const nota: number = 8;
 
 // =============================================================
 // PAS 2: Declara cu let o variabila "calificativ" de tip string,
@@ -23,7 +23,7 @@ const rezultat = document.getElementById("rezultat");
 // =============================================================
 
 // TODO: let calificativ: string = "";
-
+let calificativ : string="sirul gol";
 
 // =============================================================
 // PAS 3: Foloseste if / else if / else pentru a determina
@@ -43,7 +43,16 @@ const rezultat = document.getElementById("rezultat");
 // TODO: } else {
 // TODO:     ...
 // TODO: }
+if(nota >= 9){ 
+    calificativ= "excelent";
 
+} else if (nota  >= 7){
+    calificativ = "bine" 
+} else if (nota >=5 ) {
+   calificativ = "suficient"
+} else if (nota <5){ 
+    calificativ = "insuficient"
+}
 
 // =============================================================
 // PAS 4: Afiseaza in cutia verde textul:
@@ -51,3 +60,4 @@ const rezultat = document.getElementById("rezultat");
 // =============================================================
 
 // TODO: rezultat.textContent = "Nota " + String(nota) + " => " + calificativ;
+rezultat.textContent =calificativ;

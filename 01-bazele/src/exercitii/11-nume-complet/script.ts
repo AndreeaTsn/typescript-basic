@@ -11,7 +11,8 @@ const rezultat = document.getElementById("rezultat");
 // TODO: const prenume: string = "...";
 // TODO: const nume: string = "...";
 
-
+const prenume: string = "Maria";
+const nume: string = "Popescu"
 // =============================================================
 // PAS 2: Construieste numele complet combinand cele doua variabile
 //        cu un spatiu intre ele.
@@ -19,7 +20,7 @@ const rezultat = document.getElementById("rezultat");
 // =============================================================
 
 // TODO: const numeComplet: string = ...;
-
+const numeComplet : string = prenume + " " + nume;
 
 // =============================================================
 // PAS 3: Afiseaza in cutia verde textul:
@@ -27,3 +28,4 @@ const rezultat = document.getElementById("rezultat");
 // =============================================================
 
 // TODO: rezultat.textContent = ...;
+rezultat.textContent = numeComplet ;
