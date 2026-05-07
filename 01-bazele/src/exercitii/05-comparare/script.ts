@@ -22,7 +22,8 @@ const maiMicSauEgalDiv = document.getElementById("maiMicSauEgal");
 // =============================================================
 // PAS 1: Declara doua numere "a" si "b". Incepe cu a = 10, b = 5.
 // =============================================================
-
+const a: number = 10;
+const b: number = 5;
 // TODO: const a: number = ...;
 // TODO: const b: number = ...;
 
@@ -37,18 +38,25 @@ const maiMicSauEgalDiv = document.getElementById("maiMicSauEgal");
 // =============================================================
 
 // TODO: a === b
-
+const suntegale: boolean = a === b;
+egalDiv.textContent = "a === b"  +  suntegale ;
 
 // TODO: a !== b
-
+const suntdiferite: boolean = a !== b;
+diferitDiv.textContent = "a !== b?"  +   suntdiferite;
 
 // TODO: a > b
-
+const maimare : boolean = a > b;
+maiMareDiv.textContent = "a > b?" +  maimare;
 
 // TODO: a < b
-
+const maimic : boolean = a < b;
+maiMicDiv.textContent = "a < b?"  + maimic; 
 
 // TODO: a >= b
-
+const maimaresauegal : boolean = a >= b;
+maiMareSauEgalDiv.textContent = "a >= b?" + maimaresauegal;
 
 // TODO: a <= b
+const maimicsauegal : boolean = a <= b;
+maiMicSauEgalDiv.textContent = "a <= b?" +  maimicsauegal;

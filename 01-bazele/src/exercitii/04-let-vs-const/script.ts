@@ -53,4 +53,4 @@ dupaDiv.textContent = "scor dupa: " + scor;
 // PI = 4; // <- Eroare: "Cannot assign to 'PI' because it is a constant."
 const PI: number = 3.14;
 
-dupaDiv.textContent = "scor dupa" + PI;
+dupaDiv.textContent = "scor dupa " + PI;

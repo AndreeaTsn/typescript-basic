@@ -31,7 +31,8 @@ const nuEsteAdultDiv = document.getElementById("nuEsteAdult");
 
 // TODO: const esteAdult: boolean = ...;
 // TODO: const areCarnet: boolean = ...;
-
+const esteAdult : boolean = true;
+const areCarnet : boolean = true;
 
 // =============================================================
 // PAS 2: Afiseaza valorile celor doua variabile in cutiile lor.
@@ -40,14 +41,17 @@ const nuEsteAdultDiv = document.getElementById("nuEsteAdult");
 
 // TODO: afiseaza esteAdult
 
+esteAdultDiv.textContent = "esteAdult = " + String(esteAdult);
 
 // TODO: afiseaza areCarnet
 
-
+areCarnetDiv.textContent = "areCarnet = " + String(areCarnet);  
 // =============================================================
 // PAS 3: Foloseste && pentru a verifica daca persoana poate conduce
 //        (trebuie sa fie si adult, si sa aiba carnet).
 // =============================================================
+const poateConduce : boolean = esteAdult && areCarnet;     
+poateConduceDiv.textContent = "poateConduce? " + String(poateConduce);
 
 // TODO: const poateConduce: boolean = esteAdult && areCarnet;
 // TODO: poateConduceDiv.textContent = "Poate conduce? " + String(poateConduce);
@@ -57,7 +61,8 @@ const nuEsteAdultDiv = document.getElementById("nuEsteAdult");
 // PAS 4: Foloseste || pentru a verifica daca cel putin una dintre
 //        cele doua conditii este indeplinita.
 // =============================================================
-
+const celPutinUna : boolean = esteAdult || areCarnet;
+celPutinUnaDiv.textContent = "celputinuna?" + String(celPutinUna)
 // TODO: const celPutinUna: boolean = esteAdult || areCarnet;
 // TODO: celPutinUnaDiv.textContent = "Cel putin una? " + String(celPutinUna);
 
@@ -65,6 +70,7 @@ const nuEsteAdultDiv = document.getElementById("nuEsteAdult");
 // =============================================================
 // PAS 5: Foloseste ! pentru a inversa "esteAdult".
 // =============================================================
-
+const nuEsteAdult: boolean = !esteAdult;
+nuEsteAdultDiv.textContent = "Nu este adult?" + String(nuEsteAdult);
 // TODO: const nuEsteAdult: boolean = !esteAdult;
 // TODO: nuEsteAdultDiv.textContent = "Nu este adult? " + String(nuEsteAdult);
