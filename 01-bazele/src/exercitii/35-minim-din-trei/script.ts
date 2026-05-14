@@ -7,4 +7,11 @@
 //   "Cel mai mic dintre 5, 2, 8 este 2"
 // =============================================================
 
-const rezultat = document.getElementById("rezultat");
+// const rezultat = document.getElementById("rezultat");
+// const a : number = 5;
+// const b : number = 2;
+// const c: number = 8;
+
+// let minim : number = 0;
+
+// if ()
