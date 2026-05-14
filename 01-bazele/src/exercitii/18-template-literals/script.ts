@@ -22,7 +22,8 @@ const cuTemplateDiv = document.getElementById("cuTemplate");
 
 // TODO: const nume: string = "Maria";
 // TODO: const varsta: number = 28;
-
+const nume : string = "Andreea";
+const varsta : number = 28;
 
 // =============================================================
 // PAS 2: Construieste mesajul cu + (forma clasica).
@@ -30,14 +31,15 @@ const cuTemplateDiv = document.getElementById("cuTemplate");
 
 // TODO: const mesajClasic = "Salut, " + nume + "! Ai " + String(varsta) + " ani.";
 
-
+const MesajClasic = "Salut, " + nume + " ! Ai " + String(varsta) + "ani."
 // =============================================================
 // PAS 3: Construieste acelasi mesaj cu template literal.
 //        ATENTIE: ` (backtick) nu este apostrof. E langa tasta "1".
 // =============================================================
-
+  
 // TODO: const mesajTemplate = `Salut, ${nume}! Ai ${varsta} ani.`;
 
+const mesajTemplate = `Salut, ${nume}! Ai ${varsta} ani.`
 
 // =============================================================
 // PAS 4: Afiseaza ambele.
@@ -45,3 +47,6 @@ const cuTemplateDiv = document.getElementById("cuTemplate");
 
 // TODO: cuPlusDiv.textContent = "Cu + : " + mesajClasic;
 // TODO: cuTemplateDiv.textContent = "Cu ` ` : " + mesajTemplate;
+
+cuPlusDiv.textContent = " Cu + : " + MesajClasic;
+cuTemplateDiv.textContent = "Cu `` : " + mesajTemplate;

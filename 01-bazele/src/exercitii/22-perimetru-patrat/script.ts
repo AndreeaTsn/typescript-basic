@@ -7,3 +7,7 @@
 // =============================================================
 
 const rezultat = document.getElementById("rezultat");
+const latura : number =4;
+let perimetru : number = 4 * latura;
+
+rezultat.textContent = `Patrat cu latura ${latura} are perimetrul ${perimetru};`

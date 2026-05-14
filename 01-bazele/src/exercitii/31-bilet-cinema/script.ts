@@ -12,3 +12,14 @@
 // =============================================================
 
 const rezultat = document.getElementById("rezultat");
+const varsta : number=7;
+let bilet : number=0;
+
+if (varsta  < 7  ) {bilet=0}
+else if (varsta >= 7 && varsta <= 17) {bilet=15;}
+else if (varsta  >= 18 && varsta <= 64){bilet=30;}
+else {
+    bilet = 20;
+}
+
+rezultat.textContent= `La ${varsta} ani, biletul costa ${bilet}`;

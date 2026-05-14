@@ -7,3 +7,13 @@
 // =============================================================
 
 const rezultat = document.getElementById("rezultat");
+
+const lungime = 5;
+const latime = 3;
+
+let aria : number = 0;
+
+aria = lungime * latime ;
+
+
+rezultat.textContent = `Dreptunghi ${lungime}x ${latime} are aria ${aria}`

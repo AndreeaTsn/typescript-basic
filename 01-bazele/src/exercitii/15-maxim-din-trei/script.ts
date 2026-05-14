@@ -16,14 +16,16 @@ const rezultat = document.getElementById("rezultat");
 // TODO: const a: number = ...;
 // TODO: const b: number = ...;
 // TODO: const c: number = ...;
-
+const a : number = 2;
+const b : number = 10;
+const c : number = 12;
 
 // =============================================================
 // PAS 2: Variabila pentru cel mai mare.
 // =============================================================
 
 // TODO: let maxim: number = 0;
-
+let maxim : number = 0;
 
 // =============================================================
 // PAS 3: Foloseste if / else if / else cu doua comparari unite cu &&.
@@ -31,6 +33,15 @@ const rezultat = document.getElementById("rezultat");
 //        - altfel daca b >= a && b >= c -> maxim = b
 //        - altfel                  -> maxim = c
 // =============================================================
+if (a >= b && a >= c ) {
+    maxim = a;
+}
+else if ( b >= a && b >= c){
+    maxim = b;
+}
+else  {
+    maxim = c;
+}
 
 // TODO: if (...) {
 // TODO:     ...
@@ -46,3 +57,4 @@ const rezultat = document.getElementById("rezultat");
 // =============================================================
 
 // TODO: rezultat.textContent = "Cel mai mare este " + String(maxim);
+rezultat.textContent = "cel mai mare este" + String(maxim); 

@@ -8,3 +8,7 @@
 // =============================================================
 
 const rezultat = document.getElementById("rezultat");
+const numar : number=15;
+let divizibil : boolean= numar % 3 === 0 && numar % 5 === 0 ;
+
+rezultat.textContent= `${numar} este divizibil cu 3 si cu 5: ${divizibil}`;

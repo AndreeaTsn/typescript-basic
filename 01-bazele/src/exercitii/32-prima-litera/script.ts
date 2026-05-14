@@ -8,3 +8,7 @@
 // =============================================================
 
 const rezultat = document.getElementById("rezultat");
+const cuvant : string ="andreea";
+let primalitera : string = cuvant[0].toUpperCase();
+
+rezultat.textContent= `Prima litera din ${cuvant} este ${primalitera}`;

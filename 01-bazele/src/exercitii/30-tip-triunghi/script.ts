@@ -9,3 +9,13 @@
 // =============================================================
 
 const rezultat = document.getElementById("rezultat");
+const a : number=5;
+const b : number=5;
+const c : number=8;
+
+let tip: string = "";
+if (a === b && b===c ) { tip= "echilateral";}
+else if( a=== b  ||  b===c  ||  a===c ){ tip= "isoscel";}
+else {tip="oarecare";}
+
+rezultat.textContent= `Triunghi (${a},${b},${c}) este ${tip})`

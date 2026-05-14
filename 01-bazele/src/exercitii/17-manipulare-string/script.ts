@@ -19,7 +19,7 @@ const minusculeDiv = document.getElementById("minuscule");
 // =============================================================
 
 // TODO: const text: string = "Ana are mere";
-
+const text : string = " Andreea are mere"
 
 // =============================================================
 // PAS 2: Lungimea textului (cu .length, fara paranteze).
@@ -27,17 +27,18 @@ const minusculeDiv = document.getElementById("minuscule");
 // =============================================================
 
 // TODO: lungimeDiv.textContent = "Lungime: " + String(text.length) + " caractere";
-
+lungimeDiv.textContent= "Lungime: " + String(text.length) + "caractere";
 
 // =============================================================
 // PAS 3: Textul cu litere mari (.toUpperCase()).
 // =============================================================
 
 // TODO: majusculeDiv.textContent = "MAJUSCULE: " + text.toUpperCase();
-
+majusculeDiv.textContent = "MAJUSCULE" + String(text.toUpperCase ());
 
 // =============================================================
 // PAS 4: Textul cu litere mici (.toLowerCase()).
 // =============================================================
 
 // TODO: minusculeDiv.textContent = "minuscule: " + text.toLowerCase();
+minusculeDiv.textContent = "minuscule" + String(text.toLowerCase ());

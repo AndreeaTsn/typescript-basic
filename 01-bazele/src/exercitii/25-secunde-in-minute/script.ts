@@ -8,3 +8,8 @@
 // =============================================================
 
 const rezultat = document.getElementById("rezultat");
+const secundeTotal : number=60;
+let minute = Math.floor(secundeTotal / 60);
+let secunderamase = secundeTotal % 60;
+
+rezultat.textContent = `${secundeTotal} = ${minute} minute si ${secunderamase} secunde`;

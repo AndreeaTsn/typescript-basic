@@ -9,3 +9,7 @@
 // =============================================================
 
 const rezultat = document.getElementById("rezultat");
+const temp : number=0;
+let convertire = temp *9 / 5 + 32;
+rezultat.textContent = `${temp}C = ${convertire.toFixed(1)}F`;
+

@@ -8,3 +8,7 @@
 // =============================================================
 
 const rezultat = document.getElementById("rezultat");
+const varsta : number= 17;
+let esteMajor: boolean =
+varsta >= 18;
+rezultat.textContent= `Are ${varsta}. Este major: ${esteMajor}`

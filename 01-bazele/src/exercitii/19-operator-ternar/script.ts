@@ -26,12 +26,14 @@ const cuTernarDiv = document.getElementById("cuTernar");
 // =============================================================
 
 // TODO: const numar: number = ...;
-
+const numar : number = -13;
 
 // =============================================================
 // PAS 2: Varianta cu if/else - completeaza.
 // =============================================================
-
+let mesajIf : string = "";
+if (numar % 2 === 0) { mesajIf = "par"}
+else { mesajIf= "impar"}
 // TODO: let mesajIf: string = "";
 // TODO: if (numar % 2 === 0) {
 // TODO:     mesajIf = "par";
@@ -46,10 +48,17 @@ const cuTernarDiv = document.getElementById("cuTernar");
 
 // TODO: const mesajTernar = numar % 2 === 0 ? "par" : "impar";
 
-
+const mesajTernar = numar % 2 === 0 ? "par" : "impar"
 // =============================================================
 // PAS 4: Afiseaza ambele in pagina.
 // =============================================================
 
 // TODO: cuIfDiv.textContent = `Cu if/else: ${numar} este ${mesajIf}`;
 // TODO: cuTernarDiv.textContent = `Cu ternar:  ${numar} este ${mesajTernar}`;
+
+cuIfDiv.textContent = `Cu if/else : ${numar} este ${mesajTernar }`;
+
+cuTernarDiv.textContent = `Cu ternar: ${numar} este ${mesajTernar}`;
+
+
+

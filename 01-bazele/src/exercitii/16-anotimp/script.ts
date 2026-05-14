@@ -16,19 +16,19 @@ const rezultat = document.getElementById("rezultat");
 // =============================================================
 
 // TODO: const luna: number = ...;
-
+const luna: number = 8
 
 // =============================================================
 // PAS 2: Variabila pentru anotimp.
 // =============================================================
 
 // TODO: let anotimp: string = "";
-
+let anotimp : string = "iarna"
 
 // =============================================================
 // PAS 3: Foloseste if / else if / else cu mai multe || pe ramura:
 //        - luna === 12 || luna === 1 || luna === 2  -> "iarna"
-//        - luna >= 3 && luna <= 5                   -> "primavara"
+//        - luna = 3 && luna <= 5                   -> "primavara"
 //        - luna >= 6 && luna <= 8                   -> "vara"
 //        - altfel (deci 9, 10, 11)                  -> "toamna"
 // =============================================================
@@ -39,9 +39,21 @@ const rezultat = document.getElementById("rezultat");
 // TODO:     ...
 // TODO: } ...
 
-
+if (luna === 12 || luna === 1 || luna===2 ) {
+    anotimp= "iarna"
+}
+else if (luna === 3 && luna <=5) {
+    anotimp = "primavara"
+}
+else if (luna ===6 && luna <= 8 ){
+    anotimp = "vara"
+}
+else { anotimp = "toamna"}
+    
+            
 // =============================================================
 // PAS 4: Afiseaza rezultatul.
 // =============================================================
 
 // TODO: rezultat.textContent = "Luna " + String(luna) + " - anotimp: " + anotimp;
+rezultat.textContent = "Luna" + String(luna) + "-anotimp" + anotimp;
