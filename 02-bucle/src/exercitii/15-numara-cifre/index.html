@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <title>15 - Numara cifre</title>
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <main>
+      <a href="../../index.html" class="inapoi">&larr; Inapoi la meniu</a>
+      <h1>15 - Numara cifrele unui numar</h1>
+
+      <div class="descriere">
+        <strong>Cerinta:</strong> numara cate cifre are un numar. 12345 are
+        5 cifre, 99 are 2 cifre, 0 are 1 cifra. NU folosi
+        <code>String(numar).length</code>.
+      </div>
+
+      <p>In <code>script.ts</code>, declara <code>numarInitial</code>
+        (<code>number</code>). Cu o bucla <code>while</code>, taie pe rand
+        ultima cifra (<code>Math.floor(numar / 10)</code>) si incrementeaza
+        un contor. Afiseaza un text de forma <em>"12345 are 5 cifre"</em>.
+        Atentie la cazul 0.</p>
+
+      <div id="rezultat" class="rezultat"></div>
+    </main>
+    <script type="module" src="./script.ts"></script>
+  </body>
+</html>

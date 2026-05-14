@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <title>42 - Categorie temperatura</title>
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <main>
+      <a href="../../index.html" class="inapoi">&larr; Inapoi la meniu</a>
+      <h1>42 - Categorie temperatura (mai multe ramuri)</h1>
+
+      <div class="descriere">
+        <strong>Cerinta:</strong> dupa temperatura exterioara, afiseaza
+        categoria:
+        <ul>
+          <li><code>temperatura &lt; 0</code> &rarr; "frig"</li>
+          <li><code>0 - 14</code> &rarr; "racoare"</li>
+          <li><code>15 - 24</code> &rarr; "placut"</li>
+          <li><code>25 - 34</code> &rarr; "cald"</li>
+          <li><code>&gt;= 35</code> &rarr; "canicula"</li>
+        </ul>
+      </div>
+
+      <p>In <code>script.ts</code>, declara <code>temperatura</code>
+        (<code>number</code>). Cu <code>if/else if/else</code> afiseaza un text
+        de forma <em>"La 18°C: placut"</em>. Testeaza cu -5, 10, 20, 30, 38.</p>
+
+      <div id="rezultat" class="rezultat"></div>
+    </main>
+    <script type="module" src="./script.ts"></script>
+  </body>
+</html>

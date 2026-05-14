@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <title>44 - Pret transport</title>
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <main>
+      <a href="../../index.html" class="inapoi">&larr; Inapoi la meniu</a>
+      <h1>44 - Pret transport dupa distanta</h1>
+
+      <div class="descriere">
+        <strong>Cerinta:</strong> pretul cursei se calculeaza in functie de
+        distanta (km):
+        <ul>
+          <li>0 - 5 km &rarr; 15 lei</li>
+          <li>6 - 20 km &rarr; 30 lei</li>
+          <li>21 - 50 km &rarr; 60 lei</li>
+          <li>peste 50 km &rarr; 100 lei</li>
+        </ul>
+      </div>
+
+      <p>In <code>script.ts</code>, declara <code>distanta</code>
+        (<code>number</code>). Cu <code>if/else if/else</code> calculeaza
+        <code>pret</code> (number) si afiseaza un text de forma
+        <em>"Pentru 12 km platesti 30 lei."</em>. Testeaza cu 3, 12, 35, 80.</p>
+
+      <div id="rezultat" class="rezultat"></div>
+    </main>
+    <script type="module" src="./script.ts"></script>
+  </body>
+</html>
