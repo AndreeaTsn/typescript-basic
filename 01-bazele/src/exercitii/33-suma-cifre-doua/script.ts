@@ -9,3 +9,15 @@
 // =============================================================
 
 const rezultat = document.getElementById("rezultat");
+const numar : number=47;
+let zeci:number= Math.floor(numar/10);//23.5=>23  123/10=>12.3=> 12
+let unitati : number = numar % 10;
+let suma : number =zeci + unitati;
+
+rezultat.textContent = `${numar} : ${zeci} + ${unitati} = ${suma} `;
+
+
+
+
+
+ 
